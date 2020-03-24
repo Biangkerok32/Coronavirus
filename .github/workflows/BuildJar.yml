@@ -27,5 +27,5 @@ jobs:
     - name: 'Upload Jar to Artifacts'
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: Coronavirus-0.1.0.jar
+        name: Coronavirus.jar
         path: build/libs/Coronavirus-0.1.0.jar
